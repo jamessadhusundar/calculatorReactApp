@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: rgb(158, 188, 246);
+}
+
+button {
+  background-color: rgb(233, 232, 232);
+  color: black;
+
+  font-weight: bold;
+
+  height: 60px;
+  width: 60px;
+
+  font-size: 20px;
+
+  border-radius: 30px;
+
+  box-shadow: 5px 5px 18px rgb(192, 192, 192);
+}
+
+button:hover {
+  background-color: rgb(179, 179, 179);
+  transition-duration: 0.3s;
+}
+
+button:active {
+  background-color: rgb(158, 188, 246);
+}
+
+#equalButton {
+  background-color: rgb(112, 145, 212);
+  width: 140px;
+}
+
+#equalButton:hover {
+  background-color: rgb(83, 114, 178);
+}
+
+@media (max-width : 640px) {
+  body {
+    background-color: rgb(242, 198, 254);
+  }
+
+  button {
+    height: 40px;
+    width: 40px;
+
+    font-size: 15px;
+  }
+
+  button:active {
+    background-color: rgb(242, 198, 254);
+  }
+
+  #equalButton {
+    background-color: rgb(251, 165, 218);
+
+    width: 100px;
+  }
+
+  #equalButton:hover {
+    background-color: rgb(208, 121, 192);
+  }
+}
