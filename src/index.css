@@ -24,10 +24,10 @@ button {
 
   font-weight: bold;
 
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 
-  font-size: 20px;
+  font-size: 18px;
 
   border-radius: 30px;
 
@@ -45,7 +45,7 @@ button:active {
 
 #equalButton {
   background-color: rgb(112, 145, 212);
-  width: 140px;
+  width: 120px;
 }
 
 #equalButton:hover {
@@ -58,10 +58,10 @@ button:active {
   }
 
   button {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 
-    font-size: 15px;
+    font-size: 18px;
   }
 
   button:active {
@@ -71,7 +71,7 @@ button:active {
   #equalButton {
     background-color: rgb(251, 165, 218);
 
-    width: 100px;
+    width: 110px;
   }
 
   #equalButton:hover {
